@@ -6,8 +6,6 @@
 	$usu_login 		= $_POST['login'];
 	$usu_clave 		= $_POST['clave'];
 
-
-
 		require('../modelo/mod_usuario.php');
 		$usuario = new usuario();
 		$consulta = $usuario->autenticar($usu_login,$pgconn);
