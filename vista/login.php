@@ -4,7 +4,7 @@
 
 
 				<div class="form-group">
-					<label for="" class="control-label col-md-4">Login;</label>
+					<label for="" class="control-label col-md-4">Login</label>
 						<div class="col-md-6">
 						<input type="text" title="Su Apellido No puede poseer espacios en blancos ni caracteres especiales" class="form-control" pattern="[a-zA-Z0-9]+" placeholder="Ingresa tu nombre de Usuario" name="login" required autofocus maxlength="15">
 						</div>
